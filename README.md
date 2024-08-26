@@ -1,0 +1,1 @@
+# This project is a modern, responsive shopping website built using Tailwind CSS. The website offers a clean and intuitive user experience, showcasing a variety of products in a stylish layout. It features responsive design elements, optimized for both desktop and mobile users.

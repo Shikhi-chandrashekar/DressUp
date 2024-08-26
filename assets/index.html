@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body >
+
+       <!--  Navbar -->
+       <nav class="fixed top-0 left-0 w-full bg-white z-50 ">
+        <div class="h-14 w-full flex justify-between gap-x-4 px-4 items-center font-mono tracking-wider">
+
+            <!-- Mobile Menu Icon -->
+            <div class="xl:hidden">
+                <i class="uil uil-bars text-3xl"></i>
+            </div>
+
+            <!-- Nav Links -->
+            <ul class="hidden w-[400px] xl:flex justify-between font-medium uppercase cursor-pointer">
+                <li class="hover:underline">men</li>
+                <li class="hover:underline">women</li>
+                <li class="hover:underline">kids</li>
+                <li class="hover:underline">socks</li>
+                <li class="text-red-700 hover:underline">sale</li>
+            </ul>
+            <!-- Logo -->
+            <div>
+                <img class="w-[10rem] h-16" src="https://shopdressup.com/cdn/shop/files/Peach-Black-DU-Logo.png?v=1631144136&width=160" alt="Brand Logo">
+            </div>
+            <!-- Nav Links  -->
+            <ul class="hidden w-[450px] xl:flex font-medium justify-between uppercase cursor-pointer">
+                <li class="hover:underline">sustainability</li>
+                <li class="hover:underline">return</li>
+                <li class="hover:underline">stores</li>
+                <li><i class="uil uil-search text-2xl"></i></li>
+                <li><i class="uil uil-user text-2xl"></i></li>
+                <li><i class="uil uil-shopping-cart-alt text-2xl"></i></li>
+            </ul>
+            <!-- Mobile Icons -->
+            <div class="xl:hidden whitespace-nowrap">
+                <i class="uil uil-search text-3xl"></i>
+                <i class="uil uil-shopping-cart-alt text-3xl"></i>
+            </div>
+        </div>
+
+        <!-- Mobile Search Bar -->
+        <div class="md:hidden mx-2 p-4">
+            <input class="h-10 w-full bg-slate-50 p-4 rounded-lg text-black border-0 outline-none text-lg placeholder-gray-500" type="search" placeholder="Enter Search Term">
+        </div>
+    </nav>
+
+
+
+    <div class="h-[4.6rem]"></div> 
+   
+    <section class="w-full h-14 bg-slate-50 shadow p-4 ">
+        <ul class="flex md:justify-center justify-start font-serif font-medium md:font-lg whitespace-nowrap font-base">
+           <li class=" flex-shrink-0 hover:underline cursor-pointer">Dresses</li>
+           <li class="mx-5 flex-shrink-0 hover:underline cursor-pointer"> Shoes</li>
+           <li class="hover:underline cursor-pointer flex-shrink-0">Accessories</li>
+        </ul>
+      </section>
+
+
+   <section class="relative ">
+    <img class="w-full block object-cover " src="./images/hero_img.jpg" alt="dummy-image ">
+    <div class="absolute bottom-[1rem] left-0 right-0 flex  space-x-4 px-4   lg:w-auto  lg:pr-10  lg:bottom-16">
+        <button class="bg-white text-black py-1 w-full  hover:bg-[#222222] hover:text-white uppercase font-serif h-auto shadow-lg lg:h-[4rem]
+        lg:w-[15rem]">Daily Deal</button>
+        <button class="bg-white text-black py-1 w-full  hover:bg-[#222222] hover:text-white uppercase font-serif h-auto shadow-lg lg:h-[4rem] lg:w-[15rem]">New Arrivals</button>
+    </div>
+  </section>
+
+
+<section class="h-20 md:h-16 w-full bg-[#f7dee7] flex flex-col md:flex-row justify-center items-center p-4 ">
+    <p class="mx-4 text-sm font-mono text-center font-medium uppercase  md:text-lg tracking-wider ">BUY ONLINE & PICK UP IN STORE</p>
+    <p class="mx-4 text-sm text-center  md:text-lg ">select “store pick up” at checkout + pick up same day!</p>
+</section>
+  
+ 
+
+  <section class="grid grid-cols-2 lg:grid-cols-4 gap-6 p-4 mr-6 ml-6 mt-2">
+    <!-- Item 1 -->
+    <div class="flex flex-col items-center">
+      <img src="./images/image1.jpg" alt="Image 1" class="w-full h-auto object-cover">
+      <p class="text-center mt-4 uppercase  tracking-wide text-lg cursor-pointer">shop new</p>
+    </div>
+  
+    <!-- Item 2 -->
+    <div class="flex flex-col items-center">
+      <img src="./images/image2.jpg" alt="Image 2" class="w-full h-auto object-cover">
+      <p class="text-center mt-4 uppercase  tracking-wide text-lg cursor-pointer">new dresses</p>
+    </div>
+  
+    <!-- Item 3 -->
+    <div class="flex flex-col items-center">
+      <img src="./images/image3.jpg" alt="Image 3" class="w-full h-auto object-cover">
+      <p class="text-center mt-4 uppercase  tracking-wide text-lg cursor-pointer" >new tops</p>
+    </div>
+  
+    <!-- Item 4 -->
+    <div class="flex flex-col items-center">
+      <img src="./images/image4.jpg" alt="Image 4" class="w-full h-auto object-cover">
+      <p class="text-center mt-4 uppercase  tracking-wide text-lg cursor-pointer">new bottoms</p>
+    </div>
+
+  </section>
+
+
+
+  <div class="flex flex-wrap justify-center relative  ml-10 mr-10 mt-5 mb-5">
+    <img src="./images/im1.jpg" alt="Image 1" class="w-full h-full object-cover md:w-1/2">
+    <img src="./images/im2.jpg" alt="Image 2" class="w-full h-full object-cover md:w-1/2">
+    <button class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10   bg-white text-black py-2 rounded-sm hover:bg-[#222222] hover:text-white uppercase font-Monospace font-medium shadow-xl h-[4rem] w-[12rem]  tracking-wider">See Collection</button>
+  </div>
+
+ 
+
+
+     <div class="w-full h-10  p-2 text-center">
+      <p class="uppercase tracking-widest text-2xl ">best sellers</p>
+    </div>
+
+
+    <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 p-4  m-2 max-h-screen  mb-auto  ">
+      <div class="flex flex-col items-center justify-center p-4 ">
+        <div class="relative w-full flex items-center justify-center">
+          <div class="w-full max-w-[500px] max-h-[500px] lg:max-h-[600px] lg:max-w-[600px] aspect-square rounded-full overflow-hidden">
+            <img src="./images/image5.jpg" alt="Image 1" class="w-full h-full object-cover">
+          </div>
+        </div>
+        <p class="text-center mt-4 mb-4 font-Monospace text-lg tracking-wide">Placket Blouse</p>
+        <button type="button" class="text-gray-900 hover:text-white border border-gray-800 hover:bg-[#222222] font-medium w-[8rem] font-Monospace rounded-sm text-sm px-5 py-2.5 text-center me-2 mb-2 uppercase tracking-wider ">shop now</button>
+      </div>
+    
+      <div class="flex flex-col items-center justify-center p-4">
+        <div class="relative w-full flex items-center justify-center">
+          <div class="w-full max-w-[500px] max-h-[500px] lg:max-h-[600px] lg:max-w-[600px] aspect-square rounded-full overflow-hidden">
+            <img src="./images/image6.jpg" alt="Image 2" class="w-full h-full object-cover">
+          </div>
+        </div>
+        <p class="text-center mt-4 mb-4 font-Monospace text-lg tracking-wide">Slit Tube Dress</p>
+        <button type="button" class="text-gray-900 hover:text-white border border-gray-800 hover:bg-[#222222] font-medium w-[8rem] font-Monospace rounded-sm text-sm px-5 py-2.5 text-center me-2 mb-2 uppercase tracking-wider ">shop now</button>
+      </div>
+    
+      <div class="flex flex-col items-center justify-center p-4">
+        <div class="relative w-full flex items-center justify-center">
+          <div class="w-full max-w-[500px] max-h-[500px] lg:max-h-[600px] lg:max-w-[600px] aspect-square rounded-full overflow-hidden">
+            <img src="./images/image7.jpg" alt="Image 3" class="w-full h-full object-cover">
+          </div>
+        </div>
+        <p class="text-center mt-4 mb-4 font-Monospace text-lg tracking-wide">Bomber Jacket</p>
+        <button type="button" class="text-gray-900 hover:text-white border border-gray-800 hover:bg-[#222222] font-medium w-[8rem] font-Monospace rounded-sm text-sm px-5 py-2.5 text-center me-2 mb-2 uppercase tracking-wider ">shop now</button>
+      </div>
+    </section> 
+
+
+
+</body>
+
+</html>
+
+
